@@ -1,27 +1,21 @@
-# Student CRUD API with Express.js
+Project Title: Express REST API for Student Management
+Overview:
+An Express-based API for student data that supports CRUD operations. You can use Postman to send HTTP requests and interact with the backend.
 
-## Description
-A simple Express.js REST API that allows CRUD operations on student data.
+Core Functionalities:
+Create new student
+Get list of all students
+Edit student info
+Remove student entry
 
-## How to Run
+Stack:
+Express.js
+Node.js
+JSON handling with Postman
 
-1. Install Node.js
-2. Run the following in terminal:
+How to Use:
+Start with node app.js
+Test all endpoints in Postman
 
-```bash
-npm init -y
-npm install express
-node index.js
-```
-
-3. Use Postman to test the API at `http://localhost:3000/students`
-
-## API Endpoints
-
-| Method | URL             | Description        |
-|--------|------------------|--------------------|
-| GET    | /students        | Get all students   |
-| GET    | /students/:id    | Get one student    |
-| POST   | /students        | Add student        |
-| PUT    | /students/:id    | Update student     |
-| DELETE | /students/:id    | Delete student     |
+GitHub Repo:
+🔗 https://github.com/yourusername/project9-express-crud
